@@ -32,7 +32,7 @@ h3 {
   color: #fff;
 }
 
-h2 {
+.heading-class-text {
   max-width: 90%;
   margin: auto;  
   height: 228px;
@@ -98,4 +98,125 @@ h4 {
   width: 100%;
 }
 
+/* feature-section */
 
+.feature {
+  max-width: 350px;
+  margin: auto;
+}
+
+.card-item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background: #FAFAFA;
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.flex-row-items,
+.flex-row-paragraph {
+  background: #FAFAFA;
+}
+
+.flex-row-items {
+  width: 100%;
+}
+
+.flex-row-paragraph {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  width: 100%;
+}
+
+.ronded-icon {
+  width: 99px;
+  height: 70px;
+  background: #23A6F0;
+  border-radius: 200px;
+}
+
+.vector-card {
+  margin: 28%;
+  background: #23A6F0;
+}
+
+.card-last-item {
+  margin-bottom: 50px;
+}
+
+.text-feature-section {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+.paragraph-feature-section {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+
+.flex-row-items {
+  display: flex;
+  gap: 10px;
+}
+
+.end-paragraph {
+  float: right;
+}
+
+.feature-button-1,
+.feature-button-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 36px;
+  gap: 10px;
+  border-radius: 37px;
+}
+
+.feature-button-1 {
+  background: #23A6F0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  top: 10px;
+}
+
+.feature-button-2 {
+  border-color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  top: 10px;
+}
