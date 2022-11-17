@@ -1,5 +1,5 @@
 * {
- /*  outline: 1px solid red; */
+  outline: 1px solid red;
   background: #252b42;
 }
 
@@ -23,7 +23,7 @@ nav .icons {
 }
 
 .menu-heading {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -36,28 +36,28 @@ nav .icons {
   max-width: 90%;
   margin: auto;
   height: 228px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 h4 {
   max-width: 97%;
   margin: auto;
   height: 120px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .heading-button-1,
@@ -84,13 +84,13 @@ h4 {
 }
 
 .button-text {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
   top: 10px;
 }
 
@@ -131,7 +131,7 @@ h4 {
 .flex-row-paragraph {
   display: flex;
   align-items: center;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -158,23 +158,23 @@ h4 {
 }
 
 .text-feature-section {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .paragraph-feature-section {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 40px;
 }
 
@@ -202,25 +202,25 @@ h4 {
   border: 1px solid #23a6f0;
   margin-bottom: 20px;
   color: #fff;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
   top: 10px;
 }
 
 .feature-button-2 {
   border: 2px solid#fff;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
   top: 10px;
 }
 
@@ -237,20 +237,20 @@ h4 {
 .testimonials-heading {
   width: 250px;
   height: 114px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .testimonial-paragraph {
   width: 255px;
   height: 80px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -295,7 +295,7 @@ h4 {
 .testimonial-text {
   width: 227px;
   height: 70px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
@@ -311,7 +311,7 @@ h4 {
   height: 1px;
   left: 35px;
   top: 139.2px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -325,7 +325,7 @@ h4 {
   height: 5px;
   left: calc(50% - 67px / 2);
   top: 171.2px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -355,26 +355,26 @@ h4 {
 .text-faq {
   width: 87px;
   height: 57px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .paragraph-faq {
   width: 225px;
   height: 90px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .card-faq-item {
@@ -383,7 +383,7 @@ h4 {
   gap: 26px;
   padding: 22px;
   height: 109px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 9px;
   justify-content: center;
   align-items: center;
@@ -406,7 +406,7 @@ h4 {
 .heading-5-faq {
   width: 100%;
   height: 25px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -418,7 +418,7 @@ h4 {
 .heading-6-faq {
   width: 222px;
   height: 6px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -452,7 +452,7 @@ h4 {
 .pricing-heading {
   width: 142px;
   height: 30px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -465,14 +465,14 @@ h4 {
 .pricing-paragraph {
   width: 264px;
   height: 80px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .pricing-style {
@@ -503,38 +503,38 @@ h4 {
 .pricing-heading-3-style {
   width: 139px;
   height: 32px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .pricing-heading-5-style {
   width: 160px;
   height: 48px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .pic-price-1-style {
   width: 88px;
   height: 57px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .ronded-icon-pricing {
@@ -554,7 +554,7 @@ h4 {
 .pricing-heading-3 {
   width: 64px;
   height: 32px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -599,19 +599,19 @@ h4 {
 .tick-text {
   width: 205px;
   height: 29.25px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .pic-price-2 {
   width: 11px;
   height: 16px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -624,7 +624,7 @@ h4 {
   align-items: center;
   width: 28px;
   height: 35px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -649,7 +649,7 @@ h4 {
 .pricing-heading-5 {
   width: 160px;
   height: 48px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -663,7 +663,7 @@ h4 {
 .pricing-5 {
   width: 78px;
   height: 4px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -676,7 +676,7 @@ h4 {
 .pricing-5-style {
   width: 78px;
   height: 4px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -688,7 +688,7 @@ h4 {
 .pricing-heading-6 {
   width: 219px;
   height: 96px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -709,7 +709,7 @@ h4 {
   width: 246px;
   height: 52px;
   border-radius: 5px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -721,11 +721,49 @@ h4 {
 .price-button {
   background: #23a6f0;
   border: 1px solid #23a6f0;
-  color: #ffffff;
+  color: #fff;
 }
+
 .price-button-style {
   border: 1px solid #fff;
   background-color: #fff;
   color: #23a6f0;
   margin-top: 35px;
+}
+
+/* footer */
+.footer-section h3 {
+  width: 171px;
+  height: 32px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+.first-footer-section {
+  width: 213px;
+  height: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.footer-section p {
+  width: 150px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #fff;
 }
