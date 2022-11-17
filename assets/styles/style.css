@@ -732,6 +732,15 @@ h4 {
 }
 
 /* footer */
+.icons {
+  display: flex;
+  gap: 22px;
+}
+
+.footer-section {
+  margin-left: 20%;
+}
+
 .footer-section h3 {
   width: 171px;
   height: 32px;
@@ -745,7 +754,6 @@ h4 {
 }
 
 .first-footer-section {
-  width: 213px;
   height: 40px;
   font-family: Montserrat;
   font-style: normal;
@@ -754,10 +762,11 @@ h4 {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #ffffff;
+  margin-bottom: 26px;
+  
 }
 
 .footer-section p {
-  width: 150px;
   height: 24px;
   font-family: Montserrat;
   font-style: normal;
@@ -766,4 +775,15 @@ h4 {
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #fff;
+}
+.last-part {
+  position: absolute;
+  background-color: #fff;
+  right: 0;
+  left: 0;
+}
+
+.last-part p {
+  background-color: #fff;
+  text-align: center;
 }
