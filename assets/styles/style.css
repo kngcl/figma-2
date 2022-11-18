@@ -790,11 +790,34 @@ h4 {
 
 @media screen and (min-width: 768px) {
   * {
-    /*   outline: 1px solid green; */
+    outline: 1px solid green;
   }
 
   .nav-class {
     width: 100%;
+  }
+
+  .menu-heading {
+    margin-left: 83px;
+    margin-right: 83px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+
+  .menu-a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-decoration: none;
   }
 
   .heading-2 {
@@ -1199,16 +1222,30 @@ h4 {
   /* in-touch */
   .in-touch {
     display: flex;
-    max-width: 1440px;
+    max-width: 1100px;
     margin: auto;
     align-items: center;
     justify-content: center;
-    gap: 244px;
+    gap: 20vw;
     height: 257px;
   }
 
+  .in-touch-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
   .in-touch-heading {
-    width: 257px;
+    width: 100%;
     height: 30px;
     font-family: Montserrat;
     font-style: normal;
@@ -1220,7 +1257,7 @@ h4 {
   }
 
   .in-touch-paragraph {
-    width: 439px;
+    width: 100%;
     height: 40px;
     font-family: Montserrat;
     font-style: normal;
@@ -1236,8 +1273,9 @@ h4 {
     border: 1px solid #e6e6e6;
     border-radius: 5px;
     height: 58px;
-    width: 386px;
+    width: 320px;
     border-radius: 5px;
+    float: right;
   }
 
   .btn-primary {
@@ -1246,13 +1284,13 @@ h4 {
     background: #23a6f0;
     border: 1px solid #e6e6e6;
     border-radius: 0px 5px 5px 0px;
-    height: 58px;
+    height: 62px;
     width: 117px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -60px;
-    margin-left: 18%;
+    margin-top: -1px;
+    margin-left: 210px;
     color: #fff;
   }
 
@@ -1268,5 +1306,21 @@ h4 {
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #737373;
+  }
+
+  /* footer */
+  .footer-section {
+    max-width: 1454px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 0;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  /* last-part */
+  .last-part {
+    padding: 0.5rem;
   }
 }
