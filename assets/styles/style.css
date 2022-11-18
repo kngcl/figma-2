@@ -33,8 +33,7 @@ nav .icons {
 }
 
 .heading-class-text {
-  max-width: 90%;
-  margin: auto;
+  width: 70%;
   height: 228px;
   font-family: Montserrat;
   font-style: normal;
@@ -46,9 +45,14 @@ nav .icons {
   color: #fff;
 }
 
+.heading-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h4 {
-  max-width: 97%;
-  margin: auto;
+  width: 80%;
   height: 120px;
   font-family: Montserrat;
   font-style: normal;
@@ -141,16 +145,8 @@ h4 {
   width: 100%;
 }
 
-.ronded-icon {
-  width: 99px;
-  height: 70px;
-  background: #23a6f0;
-  border-radius: 200px;
-}
-
 .vector-card {
-  margin: 28%;
-  background: #23a6f0;
+  background: #fff;
 }
 
 .card-last-item {
@@ -267,7 +263,7 @@ h4 {
   align-items: center;
   padding: 35px;
   gap: 20px;
-  width: 300px;
+  width: 100%;
   height: 370px;
   background: #fff;
   border: 1px solid #dedede;
@@ -429,13 +425,14 @@ h4 {
 
 /* pricing */
 .pricing {
-  max-width: 350px;
+  max-width: 375px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 2570px;
+  width: 100%;
   flex: none;
   order: 4;
   align-self: stretch;
@@ -763,7 +760,6 @@ h4 {
   letter-spacing: 0.2px;
   color: #ffffff;
   margin-bottom: 26px;
-  
 }
 
 .footer-section p {
@@ -781,9 +777,138 @@ h4 {
   background-color: #fff;
   right: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .last-part p {
   background-color: #fff;
   text-align: center;
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    outline: 1px solid green;
+  }
+
+  .nav-class {
+    width: 100%;
+  }
+
+  .heading-2 {
+    display: flex;
+    gap: 17.5px;
+    max-width: 1500px;
+    margin: auto;
+    height: 777px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-class {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .heading-home {
+    width: 50%;
+  }
+
+  .heading-class-text {
+    text-align: start;
+    width: 43vw;
+    height: 10.5vh;
+    font-weight: 800;
+    font-size: 3.5vw;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+  }
+
+  .crood-user-interface {
+    width: 100%;
+  }
+
+  .heading-h4-home {
+    text-align: start;
+    width: 100%;
+    height: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+
+  .button-home {
+    display: flex;
+    gap: 10px;
+  }
+
+  .heading-button-1,
+  .heading-button-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    gap: 10px;
+    width: 170px;
+    height: 52px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* feature */
+  .feature {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-top: 3%;
+  }
+
+  .row-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+
+  .card-item {
+    height: 110px;
+    width: 90%;
+  }
+
+  .text-feature-section {
+    visibility: hidden;
+  }
+
+  .text-feature-section::after {
+    visibility: visible;
+    content: "Better Strategy";
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .vector-card {
+    display: none;
+  }
+
+  .flex-row-items::after {
+    content: url("../images/usrs.png");
+  }
+
+  .flex-row-items {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+  }
+
+  .feature-button-1 {
+    height: 50px;
+  }
 }
