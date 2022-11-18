@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   background: #252b42;
 }
 
@@ -129,7 +129,7 @@ h4 {
 }
 
 .flex-row-items {
-  width: 100%;
+  width: 90%;
 }
 
 .flex-row-paragraph {
@@ -853,9 +853,9 @@ h4 {
     align-items: center;
     padding: 15px 36px;
     gap: 10px;
-    width: 170px;
+    width: 185px;
     height: 52px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 22px;
   }
 
@@ -874,8 +874,39 @@ h4 {
   }
 
   .card-item {
-    height: 110px;
+    width: 100%;
+    height: 112px;
+  }
+
+  .flex-row-paragraph {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .card-item-p1 {
     width: 90%;
+    height: 24px;
+  }
+  .card-item-p2 {
+    width: 90%;
+    height: 48px;
+  }
+  .card-item-p3 {
+    width: 90%;
+    height: 24px;
+  }
+  .card-item-p4 {
+    width: 90%;
+    height: 24px;
+  }
+  .card-item-p5 {
+    width: 90%;
+    height: 24px;
+  }
+  .card-item-p6 {
+    width: 90%;
+    height: 48px;
   }
 
   .text-feature-section {
@@ -898,8 +929,10 @@ h4 {
   }
 
   .flex-row-items {
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-start;
   }
 
   .buttons {
@@ -910,5 +943,175 @@ h4 {
 
   .feature-button-1 {
     height: 50px;
+  }
+
+  /* testimonial */
+
+  .testimonials {
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .testimonail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 35px;
+    gap: 30px;
+    width: 744px;
+    height: 362.01px;
+  }
+
+  .testimonials-heading {
+    width: 100%;
+    height: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+  }
+
+  .testimonial-paragraph {
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-bottom: 80px;
+  }
+
+  .testimonial-text {
+    width: 500px;
+    height: 40px;
+    left: 138.5px;
+    top: 92.01px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .testimonial-pic {
+    height: 18.34711456298828px;
+    width: 18.344575881958008px;
+    left: 1.83447265625px;
+    top: 1.8326416015625px;
+    border-radius: 0px;
+  }
+
+  .testimonial-author {
+    font-size: 24px;
+    width: 157px;
+    height: 10px;
+    font-weight: 900;
+    letter-spacing: 0.1px;
+  }
+
+  /* faq */
+  .faq {
+    max-width: 1440px;
+    margin: auto;
+    height: 920px;
+  }
+
+  .text-faq {
+    margin-top: 90px;
+    width: 87px;
+    height: 47px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 57px;
+  }
+
+  .paragraph-faq {
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 95px;
+  }
+
+  .card-faq {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .card-faq-item {
+    width: 90%;
+    height: 151px;
+  }
+
+  .heading-faq {
+    width: 100%;
+  }
+
+  .heading-5-faq,
+  .heading-6-faq {
+    width: 100%;
+  }
+
+  .card-faq-item {
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+  }
+
+  /* pricing */
+  .pricing {
+    max-width: 1440px;
+    margin: auto;
+    height: 1116px;
+  }
+
+  .pricing-heading {
+    width: 144px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+  }
+
+  .pricing-paragraph {
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+
+  .styling {
+    display: flex;
+  }
+
+  .pricing-style {
+    display: none;
+  }
+
+  .pricing-style-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #23a6f0;
+    margin-bottom: 30px;
+  }
+
+  .pricing-title-content,
+  .price,
+  .pic-price-1,
+  .pic-price-2 {
+    background: #fff;
   }
 }
