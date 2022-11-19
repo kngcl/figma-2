@@ -932,7 +932,7 @@ h4 {
     content: url("../images/usrs.png");
   }
 
-  .flex-row-items {
+  .flex-justify {
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
