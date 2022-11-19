@@ -1,6 +1,9 @@
 * {
   background: #252b42;
-  font-family: 'Montserrat';
+}
+
+body {
+  font-family: Montserrat;
 }
 
 nav {
