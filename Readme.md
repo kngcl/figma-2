@@ -9,7 +9,6 @@ but things on small scale just do not act that way.
 ![desktop](assets/images/Screenshot%20from%202022-11-19%2002-57-51.png)
 ![phone](assets/images/Screenshot%20from%202022-11-19%2002-59-24.png)
 
-
 ### Built With
 
 - HTML
