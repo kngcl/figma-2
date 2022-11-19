@@ -1,5 +1,4 @@
 * {
-  /* outline: 1px solid red; */
   background: #252b42;
 }
 
@@ -788,28 +787,52 @@ h4 {
 
 .price-1,
 .in-touch,
-.faq-total {
+.faq-total,
+.barss {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  * {
-    outline: 1px solid green;
+  body {
+    font-weight: bolder;
+  }
+
+  .heading {
+    margin-bottom: -100px;
   }
 
   .nav-class {
     width: 100%;
+    max-width: 1440px;
+    margin: auto;
   }
 
-  .menu-heading {
-    margin-left: 83px;
-    margin-right: 83px;
+  .bars {
+    display: none;
   }
 
-  .menu {
+  .fa-arrow-right {
+    background: #23a6f0;
+  }
+
+  .menu,
+  .menu-link {
     display: flex;
     align-items: center;
     gap: 21px;
+  }
+
+  .menu {
+    gap: 50px;
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  .right-menu {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
   }
 
   .menu-a {
@@ -824,10 +847,31 @@ h4 {
     text-decoration: none;
   }
 
+  .menu-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    gap: 15px;
+    width: 100%;
+    height: 52px;
+    background: #23a6f0;
+    border-radius: 5px;
+    border: 1px solid #23a6f0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+
   .heading-2 {
     display: flex;
     gap: 17.5px;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: auto;
     height: 777px;
     justify-content: center;
@@ -840,12 +884,13 @@ h4 {
   }
 
   .heading-home {
-    width: 50%;
+    width: 64%;
+    min-height: 500px;
   }
 
   .heading-class-text {
     text-align: start;
-    width: 43vw;
+    width: 75%;
     height: 10.5vh;
     font-weight: 800;
     font-size: 3.5vw;
@@ -854,13 +899,14 @@ h4 {
   }
 
   .crood-user-interface {
-    width: 100%;
-  }
+    width: 40vw;
+    height: 75vh;
+   }
 
   .heading-h4-home {
     text-align: start;
-    width: 100%;
-    height: 20px;
+    width: 90%;
+    height: 90px;
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
@@ -977,6 +1023,7 @@ h4 {
   .testimonials {
     max-width: 1440px;
     margin: auto;
+    margin-bottom: 100px;
   }
 
   .testimonail-card {
@@ -1031,7 +1078,7 @@ h4 {
   .testimonial-author {
     font-size: 24px;
     width: 157px;
-    height: 10px;
+    height: 5px;
     font-weight: 900;
     letter-spacing: 0.1px;
   }
@@ -1041,6 +1088,12 @@ h4 {
     max-width: 1440px;
     margin: auto;
     height: 920px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+  }
+
+  .fa-chevron-right {
+    margin-top: -70px;
   }
 
   .text-faq {
@@ -1071,8 +1124,8 @@ h4 {
   }
 
   .card-faq-item {
-    width: 90%;
-    height: 151px;
+    width: 92%;
+    height: 119px;
   }
 
   .heading-faq {
@@ -1084,10 +1137,15 @@ h4 {
     width: 100%;
   }
 
+  .heading-5-faq {
+    height: 10px;
+    margin-top: -10px;
+  }
+
   .card-faq-item {
     padding: 10px;
     display: flex;
-    gap: 5px;
+    gap: 20px;
   }
 
   /* pricing */
@@ -1096,6 +1154,7 @@ h4 {
     margin: auto;
     height: 1116px;
     width: 36%;
+    margin-bottom: 100px;
   }
 
   .pricing-heading {
@@ -1232,6 +1291,7 @@ h4 {
     justify-content: center;
     gap: 20vw;
     height: 257px;
+    margin-bottom: 100px;
   }
 
   .in-touch-content {
