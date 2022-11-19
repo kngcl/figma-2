@@ -23,7 +23,6 @@ nav .icons {
 
 .menu-heading {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -35,7 +34,6 @@ nav .icons {
   width: 70%;
   height: 228px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -54,7 +52,6 @@ h4 {
   width: 80%;
   height: 120px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -88,7 +85,6 @@ h4 {
 
 .button-text {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
@@ -135,7 +131,6 @@ h4 {
   display: flex;
   align-items: center;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -154,7 +149,6 @@ h4 {
 
 .text-feature-section {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 57px;
@@ -164,7 +158,6 @@ h4 {
 
 .paragraph-feature-section {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -198,7 +191,6 @@ h4 {
   margin-bottom: 20px;
   color: #fff;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
@@ -210,7 +202,6 @@ h4 {
 .feature-button-2 {
   border: 2px solid#fff;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
@@ -233,7 +224,6 @@ h4 {
   width: 250px;
   height: 114px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -246,7 +236,6 @@ h4 {
   width: 255px;
   height: 80px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -291,7 +280,6 @@ h4 {
   width: 227px;
   height: 70px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 900;
   font-size: 15px;
   line-height: 16px;
@@ -307,7 +295,6 @@ h4 {
   left: 35px;
   top: 139.2px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 12px;
@@ -321,7 +308,6 @@ h4 {
   left: calc(50% - 67px / 2);
   top: 171.2px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 5px;
@@ -351,7 +337,6 @@ h4 {
   width: 87px;
   height: 57px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -363,7 +348,6 @@ h4 {
   width: 225px;
   height: 90px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -402,7 +386,6 @@ h4 {
   width: 100%;
   height: 25px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -414,7 +397,6 @@ h4 {
   width: 222px;
   height: 6px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -446,7 +428,6 @@ h4 {
   width: 142px;
   height: 30px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 57px;
@@ -459,7 +440,6 @@ h4 {
   width: 264px;
   height: 80px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
@@ -498,7 +478,6 @@ h4 {
   width: 139px;
   height: 32px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -510,7 +489,6 @@ h4 {
   width: 160px;
   height: 48px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -523,7 +501,6 @@ h4 {
   width: 88px;
   height: 57px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -549,7 +526,6 @@ h4 {
   width: 64px;
   height: 32px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -594,7 +570,6 @@ h4 {
   width: 205px;
   height: 29.25px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -606,7 +581,6 @@ h4 {
   width: 11px;
   height: 16px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 10px;
@@ -619,7 +593,6 @@ h4 {
   width: 28px;
   height: 35px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -644,7 +617,6 @@ h4 {
   width: 160px;
   height: 48px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -658,7 +630,6 @@ h4 {
   width: 78px;
   height: 4px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -671,7 +642,6 @@ h4 {
   width: 78px;
   height: 4px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -683,7 +653,6 @@ h4 {
   width: 219px;
   height: 96px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -704,7 +673,6 @@ h4 {
   height: 52px;
   border-radius: 5px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
@@ -739,7 +707,6 @@ h4 {
   width: 171px;
   height: 32px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -750,19 +717,17 @@ h4 {
 .first-footer-section {
   height: 40px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 26px;
 }
 
 .footer-section p {
   height: 24px;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -837,13 +802,12 @@ h4 {
 
   .menu-a {
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
   }
 
@@ -860,12 +824,11 @@ h4 {
     border-radius: 5px;
     border: 1px solid #23a6f0;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.2px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .heading-2 {
@@ -901,7 +864,7 @@ h4 {
   .crood-user-interface {
     width: 40vw;
     height: 75vh;
-   }
+  }
 
   .heading-h4-home {
     text-align: start;
@@ -1068,11 +1031,11 @@ h4 {
   }
 
   .testimonial-pic {
-    height: 18.34711456298828px;
-    width: 18.344575881958008px;
-    left: 1.83447265625px;
-    top: 1.8326416015625px;
-    border-radius: 0px;
+    height: 18.3473px;
+    width: 18.3445px;
+    left: 1.8343px;
+    top: 1.8333px;
+    border-radius: 0;
   }
 
   .testimonial-author {
@@ -1248,7 +1211,6 @@ h4 {
     width: 104px;
     height: 35px;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
@@ -1312,7 +1274,6 @@ h4 {
     width: 100%;
     height: 30px;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
@@ -1324,7 +1285,6 @@ h4 {
     width: 100%;
     height: 40px;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -1347,7 +1307,7 @@ h4 {
     position: absolute;
     background: #23a6f0;
     border: 1px solid #e6e6e6;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0 5px 5px 0;
     height: 62px;
     width: 117px;
     display: flex;
@@ -1363,8 +1323,7 @@ h4 {
     height: 28px;
     left: 20px;
     top: calc(50% - 28px / 2);
-    font-family: "Montserrat";
-    font-style: normal;
+    font-family: Montserrat;
     font-weight: 900;
     font-size: 14px;
     line-height: 28px;
