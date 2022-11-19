@@ -121,6 +121,8 @@ h4 {
 
 .flex-row-items {
   width: 90%;
+  display: flex;
+  gap: 10px;
 }
 
 .flex-row-paragraph {
@@ -157,11 +159,6 @@ h4 {
   letter-spacing: 0.2px;
   color: #fff;
   margin-bottom: 40px;
-}
-
-.flex-row-items {
-  display: flex;
-  gap: 10px;
 }
 
 .end-paragraph {
