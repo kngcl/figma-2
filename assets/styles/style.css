@@ -797,7 +797,7 @@ h4 {
   .heading-2 {
     display: flex;
     gap: 17.5px;
-    max-width: 1400px;
+    max-width: 1244px;
     margin: auto;
     height: 777px;
     justify-content: center;
@@ -825,9 +825,8 @@ h4 {
   }
 
   .crood-user-interface {
-    width: 40vw;
-    height: 75vh;
-  }
+    width: 100%;
+   }
 
   .heading-h4-home {
     text-align: start;
@@ -1299,7 +1298,7 @@ h4 {
 
   /* footer */
   .footer-section {
-    max-width: 1454px;
+    max-width: 3000px;
     margin: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
