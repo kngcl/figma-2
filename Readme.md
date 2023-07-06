@@ -16,12 +16,8 @@ but things on small scale just do not act that way.
 
 ### Prerequisites
 
-Knowledge about:
+Expand All
 
-- HTML
-- CSS
-- Google chrome
-  
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
@@ -36,9 +32,8 @@ Knowledge about:
 
 ## Start App
 
-- run by opening the index.html in the browser
-
-## Author
+Expand All
+ @@ -39,14 +42,14 @@ Knowledge about:
 
 👤 **kngcl**
 
@@ -52,4 +47,6 @@ Feel free to check the [issues page](https://github.com/kngcl/figma-2/issues).
 
 ## 📝 License
 
+
 This project is [figmaland](./LICENSE) licensed.
+
