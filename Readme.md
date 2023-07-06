@@ -12,7 +12,7 @@ but things on small scale just do not act that way.
 ### Built With
 
 - HTML
-- CSS
+- CSS3
 
 ### Prerequisites
 
