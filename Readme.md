@@ -47,4 +47,6 @@ Feel free to check the [issues page](https://github.com/kngcl/figma-2/issues).
 
 ## 📝 License
 
+
 This project is [figmaland](./LICENSE) licensed.
+
